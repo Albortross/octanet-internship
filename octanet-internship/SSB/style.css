@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav h1 {
+    font-size: 35px;
+    color: rgb(0, 4, 255);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px px;
+}
+
+nav ul li a:hover {
+    background-color: #2042eb;
+    transition: 0.5s ease;
+}
+
+nav ul li .active {
+    background-color: #4c20eb;
+}
+
+.article {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.article h1 {
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.article p {
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.article .btn {
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #6148f1;
+}
+
+.article .btn:hover {
+    background-color: #4399fa;
+    transition: 0.5s ease;
+}
